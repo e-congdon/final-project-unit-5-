@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="UG_AoT^RWd4{.]T7IBaE">blue_girl</variable><variable id="BT)H|o-Mw)P{gO52q$:R">red_boy</variable><variable id="t[~%u}eo=ewOI8O7m.:T">treasure</variable><variable type="KIND_SpriteKind" id="u!cn3Fh))M8]wg7T9`P;">Player</variable><variable type="KIND_SpriteKind" id="6cp~?qy(lRJtd6?=1S{m">Projectile</variable><variable type="KIND_SpriteKind" id="[;~UUh0oa3b?l5WNd77.">Food</variable><variable type="KIND_SpriteKind" id="?4IL7M[N}e6NbWC]CgJC">Enemy</variable><variable type="KIND_SpriteKind" id="GmWP_~|wohg$XvOxX/}:">treasure</variable></variables><block type="pxt-on-start" id="Sm:y+T0I@s(PpNz@khQB" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Bxt*Y^vaP9TrB6$P8b-W"><field name="VAR" id="UG_AoT^RWd4{.]T7IBaE">blue_girl</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="SJ`Xw2w6XoJbB?k0y^Yr"><value name="img"><shadow type="screen_image_picker" id="ZM#;qKQGM]O)vZfkOuOQ"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="u!cn3Fh))M8]wg7T9`P;">Player</variable><variable type="KIND_SpriteKind" id="6cp~?qy(lRJtd6?=1S{m">Projectile</variable><variable type="KIND_SpriteKind" id="[;~UUh0oa3b?l5WNd77.">Food</variable><variable type="KIND_SpriteKind" id="?4IL7M[N}e6NbWC]CgJC">Enemy</variable><variable type="KIND_SpriteKind" id="GmWP_~|wohg$XvOxX/}:">treasure</variable><variable id="UG_AoT^RWd4{.]T7IBaE">blue_girl</variable><variable id="BT)H|o-Mw)P{gO52q$:R">red_boy</variable><variable id="t[~%u}eo=ewOI8O7m.:T">treasure</variable><variable id="MU?jX~I6fn8LfNbSKTHS">mySprite</variable></variables><block type="pxt-on-start" id="Sm:y+T0I@s(PpNz@khQB" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="Bxt*Y^vaP9TrB6$P8b-W"><field name="VAR" id="UG_AoT^RWd4{.]T7IBaE">blue_girl</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="SJ`Xw2w6XoJbB?k0y^Yr"><value name="img"><shadow type="screen_image_picker" id="ZM#;qKQGM]O)vZfkOuOQ"><field name="img">img`
 . . . . . f f f f f . . . . 
 . . . . f 9 9 6 6 1 f . . . 
 . f f f 6 f f f 9 f 9 f f . 
@@ -41,4 +41,21 @@ c 5 3 5 5 1 d c
 c d d 1 1 d d c 
 . f d d d d f . 
 . . f f f f . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"fw!=P=Vi6K]aVrSGvc`H"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="UUAyxY,l[~1G.[~!H2?1"><field name="MEMBER">treasure</field></shadow></value></block></value></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"fw!=P=Vi6K]aVrSGvc`H"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="UUAyxY,l[~1G.[~!H2?1"><field name="MEMBER">treasure</field></shadow></value></block></value></block></statement></block><block type="variables_set" id="s?#U@~`5UTdA`0K7aEoG" disabled="true" x="30" y="630"><field name="VAR" id="MU?jX~I6fn8LfNbSKTHS">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Fp)e(uI68sQE.%gUAQ]#" disabled="true"><value name="img"><shadow type="screen_image_picker" id="-Vbd3CWH_l;Dk}Bus_{I" disabled="true"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"-Vbd3CWH_l;Dk}Bus_{I"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="@wu4z[~O!!vCTbt]QAaV" disabled="true"><field name="MEMBER">Player</field></shadow></value></block></value></block></xml>
