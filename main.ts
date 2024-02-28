@@ -15,7 +15,9 @@ function Spawn_Treasure () {
         . f d d d d f . 
         . . f f f f . . 
         `, SpriteKind.treasure)
+    treasure_List = tiles.getTilesByType(assets.tile`transparency16`)
 }
+let treasure_List: tiles.Location[] = []
 let treasure: Sprite = null
 let blue_girl = sprites.create(img`
     . . . . . f f f f f . . . . 
