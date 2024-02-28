@@ -16,6 +16,7 @@ let blue_girl = sprites.create(img`
     . . . . . f 1 f f 6 f . . . . . 
     . . . . . f f f f f f . . . . . 
     `, SpriteKind.Player)
+controller.player1.moveSprite(blue_girl)
 let red_boy = sprites.create(img`
     . . . . . . . f . . . . . . . . 
     . . . . . . f 5 f . . . f . . . 
@@ -34,4 +35,9 @@ let red_boy = sprites.create(img`
     . . . . . f 2 f f 5 f . . . . . 
     . . . . . f f f f f f . . . . . 
     `, SpriteKind.Player)
+controller.player2.moveSprite(red_boy)
 tiles.setCurrentTilemap(tilemap`level1`)
+tiles.placeOnRandomTile(blue_girl, sprites.castle.tileGrass1)
+tiles.placeOnRandomTile(red_boy, sprites.castle.tileGrass1)
+scene.cameraFollowSprite(red_boy)
+scene.cameraFollowSprite(blue_girl)
