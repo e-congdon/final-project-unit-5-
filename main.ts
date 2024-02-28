@@ -1,10 +1,10 @@
 namespace SpriteKind {
     export const treasure = SpriteKind.create()
 }
-function Spawn_Enemy () {
-	
+function Spawn_Enemy() {
+
 }
-function Spawn_Treasure () {
+function Spawn_Treasure() {
     treasure = sprites.create(img`
         . . b b b b . . 
         . b 5 5 5 5 b . 
